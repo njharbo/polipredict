@@ -1,4 +1,4 @@
-var public_spreadsheet_url_nextft = 'https://docs.google.com/spreadsheets/d/1nNh0y_f86gPHGiN4J6Xwdou7zLY7rtV_aHsseAcaQqU/pubhtml?gid=0&single=true';
+var public_spreadsheet_url_nextft = 'https://docs.google.com/spreadsheets/d/1JXRO7WvmR_i19aCYUehxUw9IorBR75yq0wEADXFajGU/pubhtml?gid=0&single=true';
 
 function sub_nextft() {
    Tabletop.init( { key: public_spreadsheet_url_nextft,

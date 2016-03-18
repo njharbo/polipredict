@@ -158,7 +158,23 @@ a:link, a:visited {
 	width: 900px;
 	height: 600px;
 		margin:0 auto;
-		margin-top: 1px;
+		margin-top: 40px;
+		margin-bottom: 0px;
+		 border-style: none;
+    border-color:  #a6a6a6;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+
+}
+.meta{
+	float:center;
+	/* width: 700px; 
+	height: 550px ; */
+	width: 900px;
+	height: 100px;
+		margin:0 auto;
+		margin-top: 40px;
 		margin-bottom: 0px;
 		 border-style: none;
     border-color:  #a6a6a6;

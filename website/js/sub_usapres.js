@@ -1,5 +1,4 @@
-var public_spreadsheet_url_usapres = 'https://docs.google.com/spreadsheets/d/1KJ23-HdhnLw_KX0ZB4_D7D31BveTflIH4Vhq2dhngeA/pubhtml?gid=0&single=true';
-
+var public_spreadsheet_url_usapres = 'https://docs.google.com/spreadsheets/d/1iZfQDUV2D0TA6a5NkehAdTWsjS6fDQaJmNVUs4r6mV0/pubhtml?gid=0&single=true'
 function sub_usapres() {
    Tabletop.init( { key: public_spreadsheet_url_usapres,
                      callback: showInfo_usapres,
