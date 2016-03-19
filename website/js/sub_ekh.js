@@ -1,5 +1,5 @@
 var public_spreadsheet_urlekh = 'https://docs.google.com/spreadsheets/d/10wzoBvWqH2p5rBoy64SSqABQe24HFe1Mt3FhPd1QReo/pubhtml?gid=0&single=true';
-
+var public_spreadsheet_urlekh = 'https://docs.google.com/spreadsheets/d/10R68cq02EgLKtu9qZSsvglsuTI6_UHz9Pr4Im12yE38/pubhtml'
 function sub_ekh() {
    Tabletop.init( { key: public_spreadsheet_urlekh,
                      callback: showInfoekh,
@@ -78,22 +78,22 @@ var trace6 = {
   type: "scatter",
     showlegend: false,
 };
-/// HTS main
-var trace5 = {
-  x: x, 
-  y: y2,
-  line: {color: "#ff0000"}, 
-  mode: "lines", 
-  name: "Helle Thorning-Schmidt", 
-  type: "scatter"
-};
 /// LLR main
 var trace2 = {
   x: x, 
-  y: y1,
+  y: y2,
   line: {color: "#0039e6"}, 
   mode: "lines", 
-  name: "Lars Løkke Rasmussen", 
+  name: "Går af", 
+  type: "scatter"
+};
+/// HTS main
+var trace5 = {
+  x: x, 
+  y: y1,
+  line: {color: "#ff0000"}, 
+  mode: "lines", 
+  name: "Bliver", 
   type: "scatter"
 };
   data=[trace1,trace3,trace4,trace6,trace5,trace2]
@@ -128,7 +128,7 @@ var trace2 = {
     tickangle: 45,
   },
   yaxis: {
-    range: [0, 70],
+    range: [0, 100],
      showgrid: false,
     dtick: 10,
     title: 'Sandsynlighed i pct.',
