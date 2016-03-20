@@ -24,23 +24,27 @@
 </head>
 <body>
 <header id="title-wrapper" class="container">
-	<h1 id="title">polipredict.dk</h1>
+	<h1 id="title">Polipredict.dk</h1>
 </header>
 
+<!-- Begin menu -->
 <nav id="menu" class="container">
 	    <ul>
-			 <li><a href="/index.html">aktive markeder</a></li>
-	        <li><a href="/closed.html">lukkede markeder</a></li>
-	        <li><a href="/faq.html">faq</a></li>
-	    </ul>
+			 <li><a href="/index.html">Aktive markeder</a></li>
+	        <li><a href="/closed.html">Lukkede markeder</a></li>
+	        <li><a href="/faq.html">FAQ</a></li>
+</ul>	    
+	    <a href="https://twitter.com/polipredictdk" class="twitter-follow-button" data-show-count="false" data-lang="da">Følg @polipredictdk</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </nav>
+<!-- End menu-->
 
 <div id="tekst">
 	<h2>FAQ</h2>
 		<div id="tekstarea">
 		
 		<span class="q"  id="highlightedtext">Q: Hvad er ideen med Polipredict.dk?</span> <br>
-		Udfaldet af politiske begivenheder såsom valg udfald er vigtige og tiltrækker med rette stor opmærksomhed i den offentlige debat. Ofte bliver debatten ført med baggrund i meningsmålinger eller enkelte eksperters udsagn. Vi mener, at debatten kan kvalificeres yderligere hvis man også inkluderer priserne i bettingmarkedet. Disse priser kan både afspejle summen af tilgængelige meningsmålinger, men også markedets forventning til udviklingen frem mod f.eks. et valg. Således har disse priser også potentialet til at reagere hurtigere på ny information end meningsmålinger. Antag f.eks. at en afgørende begivenhed indtræffer som påvirker en af kandidaterne chance for at blive valgt. Denne begivenhed vil potentielt kunne opfanges med det samme i priserne i bettingmarkedet, hvorimod det vil tage tid at indsamle og skabe meningsmålinger som afspejler begivenheden. Samtidig illustrerer priserne i bettingmarkedet fint usikkerheden om udfaldet af politiske begivenheder. Ofte bliver meningsmålinger og eksperters udsagn fortolkes som, at den ene eller den anden vinder valget. Reelt er der dog altid tale som sandsynligheder for det ene eller det andet udfald. Priserne i bettingmarkedet afspejler dette, og det er nemt at udregne implicitte sandsynligheder fra priserne. <br><br>
+		Udfaldet af politiske begivenheder såsom valg udfald er vigtige og tiltrækker med rette stor opmærksomhed i den offentlige debat. Ofte bliver debatten ført med baggrund i meningsmålinger eller enkelte eksperters udsagn. Vi mener, at debatten kan kvalificeres yderligere hvis man også inkluderer priserne i bettingmarkedet diskussionen. Disse priser kan både afspejle summen af tilgængelige meningsmålinger, men også markedets forventning til udviklingen frem mod f.eks. et valg. Således har disse priser også potentialet til at reagere hurtigere på ny information end meningsmålinger. Antag f.eks. at en afgørende begivenhed indtræffer som påvirker en af kandidaterne chance for at blive valgt. Denne begivenhed vil potentielt kunne opfanges med det samme i priserne i bettingmarkedet, hvorimod det vil tage tid at indsamle og skabe meningsmålinger som afspejler begivenheden. Samtidig illustrerer priserne i bettingmarkedet fint usikkerheden om udfaldet af politiske begivenheder. Ofte bliver meningsmålinger og eksperters udsagn fortolkes som, at den ene eller den anden vinder valget. Reelt er der dog altid tale som sandsynligheder for det ene eller det andet udfald. Priserne i bettingmarkedet afspejler dette, og det er nemt at udregne implicitte sandsynligheder fra priserne. <br><br>
 		
 		<span class="q"  id="highlightedtext">Q: Hvordan udregner I sandsynlighederne?</span> <br>
 	Vi indsamler løbende odds fra 4 spiludbydere,  som tilbyder væddemål på, politiske begivenheder. Hvert af disse væddemål har en implicit sandsynlighed for, at forskellige udfald realiseres. Vi udregner denne for hver dataindsamling, og får dermed det interval af sandsynligheder, som vi viser på forsiden. <!--Den udtrukne linie i midten af intervallet viser gennemsnittet. Helt præcist udregner vi sandsynligheden for at hhv. Helle Thorning-Schmidt og Lars Løkke Rasmussen bliver statsminister, betinget på at en af disse to kandidater vinder valget.  --> <br><br>
@@ -49,7 +53,7 @@
 Det er to forskellige mål. En meningsmåling søger at afdække, hvordan stemmerne ville fordele sig, hvis der var valg imorgen. Vores mål er markedets forventning til, hvem der rent faktisk vinder valget, når det afholdes. Dermed indeholder målet både den information, som indgår i tilgængelige meningsmålinger, men også markedets forventning til udviklingen frem mod valget. Samtidig kan vores mål bruges til komplementere læsningen af meningsmålinger, som kan være meget volatile. Hvor meningsmålinger kan svinge en del på grund statistisk usikkerhed, så vil den kun påvirke vores mål i det omfang at markedsdeltagerne vurderer, at den er troværdig. Endelig har vores mål potentialet til hurtigere at indarbejde afgørende begivenheder end meningsmålinger. Antag f.eks. at en afgørende begivenhed indtræffer, som skader eller gavner en af kandidaterne. Dette vil kunne ændre oddset på kandidaterne med det samme, hvorimod det vil tage tid at skabe nye meningsmålinger, som afspejler denne begivnhed. <br><br>
 
 <span class="q"  id="highlightedtext">Q: Hvor præcist er jeres mål?</span> <br>
-Det er svært at sige. En række faktorer er afgørende for præcisionen. F.eks. 1) Hvor mange deltager i markedet, og 2) Hvor god information har deltagerne i markedet. Jo flere og jo bedre informerede spillerne er, jo mere information kommer prisen til at indeholde. Et økonomisk studie har fundet, at “Prediction Markets” kan forudsige udfald bedre end meningsmålinger (http://www.nber.org/papers/w10504). I dansk sammenhæng har vi fulgt betting-priser frem mod folketingsvalget 2015, EU-afstemningen 2016 og Eva Kjer Hansens afgang som minister. Bettingmarkedet har for hvert af disse begivenheder tildelt det faktiske udfald højest sandsynlighed. Ideen med denne side er dog at løbende indsamle betting data for på sigt, at muliggøre en mere formelt evaluering af sådant datas evne til at forudsige politiske begivenheder.<br><br>
+Det er svært at sige. En række faktorer er afgørende for præcisionen. F.eks. 1) Hvor mange deltager i markedet, og 2) Hvor god information har deltagerne i markedet. Jo flere og jo bedre informerede spillerne er, jo mere information kommer prisen til at indeholde. Et økonomisk <a ahref=http://www.nber.org/papers/w10504 target="_blank"> studie</a> har fundet, at “Prediction Markets” kan forudsige udfald bedre end meningsmålinger. I dansk sammenhæng har vi fulgt betting-priser frem mod folketingsvalget 2015, EU-afstemningen 2016 og Eva Kjer Hansens afgang som minister. Bettingmarkedet har for hvert af disse begivenheder tildelt det faktiske udfald højest sandsynlighed. Ideen med denne side er dog at løbende indsamle betting data for på sigt, at muliggøre en mere formel evaluering af sådant datas evne til at forudsige politiske begivenheder.<br><br>
 
 <span class="q" id="highlightedtext">Q: Er jeres mål bedre end eksperters vurderinger?</span> <br>
 Måske. På den ene side har politiske eksperter nok mere information end mange som spiller på udfaldet af forskellige politiske begivenheder. På den anden side så har deltagerne mulighed for at høre eksperter vurderinger, før de spiller. Samtidig aggregerer markedet alle deltagernes informationer - ikke blot nogle få eksperter. Endelig er det ikke altid at eksperter har "skin in the game". Modsat taber markedsdeltagerne penge, hvis de predikterer forkert. <br><br>
@@ -76,8 +80,9 @@ polipredict.dk er udviklet af økonomerne Hans Henrik Sievertsen og Niels-Jakob 
 Nej. polipredict.dk er udelukkende udviklet for at øge informationsniveauet i debatten. Der er ingen profit forbunden med siden. <br><br>
 
 <span class="q" id="highlightedtext">Q: Jeg har et forslag. Kan jeg være med?</span><br>
-Ja. Forslag til forbedringer er meget velkomne. Kontakt os gerne på Twitter. <br><br>
+Ja! Alle forslag til forbedringer er mere end velkomne. Hvad enten du finder en stavefejl eller har et forslag til en ny figur er du meget velkommen til at kontakte os. Du kan finde og videre med til at videreudvikle vores kode på <a href="https://github.com/njharbo/polipredict" target=_blank>Github</a>. Du kan også bare kontakte os via Twitter på <a href="https://twitter.com/polipredictdk" target=_blank>@polipredictdk</a>, <a href="https://twitter.com/hhsievertsen" target=_blank>@hhsievertsen</a> eller <a href="https://twitter.com/njharbo" target=_blank>@njharbo</a>.  <br><br>
 
+<!-- 
 <p style="text-align:center">
 
 		<a href="https://twitter.com/hhsievertsen" title="Follow me on Twitter"><img id="contact" width="32" src="http://www.hhsievertsen.net/pic/twitter.png" alt="hhsievertsen"/></a>
@@ -85,7 +90,7 @@ Ja. Forslag til forbedringer er meget velkomne. Kontakt os gerne på Twitter. <b
 				<a href="https://twitter.com/njharbo" title="Follow me on Twitter"><img id="contact" width="32" src="http://www.hhsievertsen.net/pic/twitter.png" alt="njharbo"/></a>
 
 
-</p>
+</p> -->
 			
 	</div>
 	</div>

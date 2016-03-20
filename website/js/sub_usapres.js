@@ -21,8 +21,8 @@ function sub_usapres() {
 
 
 function myfig_usapres( x, y1,y2,y3,y4  ){
-  var line1 = { x: x,   y: y1 ,name :'Democrats'};
-  var line2 = { x: x,   y: y2 ,name :'Republicans' };
+  var line1 = { x: x,   y: y1 ,name :'Demokrater', marker:{color:'blue'} };
+  var line2 = { x: x,   y: y2 ,name :'Republikanere', marker:{color:'red'} };
   var data = [line1, line2];
 
   var layout = {

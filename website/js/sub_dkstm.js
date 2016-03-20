@@ -34,6 +34,13 @@ function myfig_dkstm( x, y1,y2,y3,y4,y5  ){
 
   var layout = {
     
+    legend : {
+       xanchor:"center",
+    yanchor:"top",
+      y:1.3, // play with it
+    x:0.5   // play with it
+    },
+    
      titlefont: {
         family: 'Sans-serif',
       size: 16,

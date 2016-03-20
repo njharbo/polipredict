@@ -84,7 +84,7 @@ var trace2 = {
   y: y2,
   line: {color: "#0039e6"}, 
   mode: "lines", 
-  name: "Går af", 
+  name: "Ja", 
   type: "scatter"
 };
 /// HTS main
@@ -93,7 +93,7 @@ var trace5 = {
   y: y1,
   line: {color: "#ff0000"}, 
   mode: "lines", 
-  name: "Bliver", 
+  name: "Nej", 
   type: "scatter"
 };
   data=[trace1,trace3,trace4,trace6,trace5,trace2]

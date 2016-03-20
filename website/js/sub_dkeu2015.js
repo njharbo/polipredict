@@ -1,4 +1,3 @@
-var public_spreadsheet_urldkeu2015 = 'https://docs.google.com/spreadsheets/d/10wzoBvWqH2p5rBoy64SSqABQe24HFe1Mt3FhPd1QReo/pubhtml?gid=0&single=true';
 var public_spreadsheet_urldkeu2015 = 'https://docs.google.com/spreadsheets/d/1WblLAjIdDBc6jfKVyLm_cIw1N1MRKhgkwHEU_J80yj0/pubhtml?gid=0&single=true'
 function sub_dkeu2015() {
    Tabletop.init( { key: public_spreadsheet_urldkeu2015,

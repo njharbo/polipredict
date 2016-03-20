@@ -31,6 +31,13 @@ function fig_nextft( x, y1,y2,y3,y4  ){
   var data = [line1, line2,line3,line4];
 
   var layout = {
+
+    legend : {
+       xanchor:"center",
+    yanchor:"top",
+      y:1.3, // play with it
+    x:0.5   // play with it
+    },
     
      titlefont: {
         family: 'Sans-serif',
