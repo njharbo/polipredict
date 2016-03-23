@@ -98,6 +98,17 @@ var trace5 = {
 };
   data=[trace1,trace3,trace4,trace6,trace5,trace2]
   var layout = {
+     annotations: [{
+    xref: 'paper',
+    yref: 'paper',
+     x: .99,
+    xanchor: 'right',
+    y: 0.03,
+    font: {   family: ' sans-serif'},
+    yanchor: 'bottom',
+    text: '&copy; polipredict.dk',
+    showarrow: false
+  }],
      legend:{
        xanchor:"center",
     yanchor:"top",
@@ -110,22 +121,23 @@ var trace5 = {
      color: 'black'
     },
   xaxis: {
-
+ ticklen: 7,
+     tickcolor:"white",
     showgrid: false,
      linewidth: 1,
     linecolor: '#000',
     title: '',
     titlefont: {
-        family: 'Courier New, monospace',
-      size: 14,
-      color: '#7f7f7f'
-    },
-    tickfont: {
-       family: 'Courier New, monospace',
+        family: 'sans-serif',
       size: 14,
       color: 'black'
     },
-    tickangle: 45,
+    tickfont: {
+       family: 'sans-serif',
+      size: 14,
+      color: 'black'
+    },
+    tickangle: 0,
   },
   yaxis: {
     range: [0, 100],
@@ -135,12 +147,12 @@ var trace5 = {
      linewidth: 1,
     linecolor: '#000',
     titlefont: {
-      family: 'Courier New, monospace',
+      family: 'sans-serif',
       size: 14,
-      color: '#7f7f7f'
+      color: 'black'
     },
     tickfont: {
-        family: 'Courier New, monospace',
+        family: 'sans-serif',
       size: 14,
       color: 'black'
     }

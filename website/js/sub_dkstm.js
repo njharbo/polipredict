@@ -33,7 +33,17 @@ function myfig_dkstm( x, y1,y2,y3,y4,y5  ){
   
 
   var layout = {
-    
+        annotations: [{
+    xref: 'paper',
+    yref: 'paper',
+     x: .99,
+    xanchor: 'right',
+    y: 0.01,
+    font: {   family: ' sans-serif'},
+    yanchor: 'bottom',
+    text: '&copy; polipredict.dk',
+    showarrow: false
+  }],
     legend : {
        xanchor:"center",
     yanchor:"top",
@@ -49,19 +59,21 @@ function myfig_dkstm( x, y1,y2,y3,y4,y5  ){
   xaxis: {
     showgrid: false,
      linewidth: 1,
+     ticklen: 7,
+     tickcolor:"white",
     linecolor: '#000',
     title: '',
     titlefont: {
-        family: 'Courier New, monospace',
+        family: 'sans-serif',
       size: 14,
       color: '#7f7f7f'
     },
     tickfont: {
-       family: 'Courier New, monospace',
+       family: 'sans-serif',
       size: 14,
       color: 'black'
     },
-    tickangle: 45,
+    tickangle: 0,
   },
   yaxis: {
     range: [0, 50],
@@ -71,12 +83,12 @@ function myfig_dkstm( x, y1,y2,y3,y4,y5  ){
      linewidth: 1,
     linecolor: '#000',
     titlefont: {
-      family: 'Courier New, monospace',
+      family: 'sans-serif',
       size: 14,
-      color: '#7f7f7f'
+      color: 'black'
     },
     tickfont: {
-        family: 'Courier New, monospace',
+        family: 'sans-serif',
       size: 14,
       color: 'black'
     }

@@ -21,8 +21,8 @@ function sub_usapres() {
 
 
 function myfig_usapres( x, y1,y2,y3,y4  ){
-  var line1 = { x: x,   y: y1 ,name :'Demokrater', marker:{color:'blue'} };
-  var line2 = { x: x,   y: y2 ,name :'Republikanere', marker:{color:'red'} };
+  var line1 = { x: x,   y: y1 ,name :'Democrats', marker:{color:'blue'} };
+  var line2 = { x: x,   y: y2 ,name :'Republicans', marker:{color:'red'} };
   var data = [line1, line2];
 
   var layout = {
@@ -38,22 +38,34 @@ function myfig_usapres( x, y1,y2,y3,y4  ){
       color: 'black'
     },
   xaxis: {
+         ticklen: 7,
+     tickcolor:"white",
     showgrid: false,
      linewidth: 1,
     linecolor: '#000',
     title: '',
     titlefont: {
-        family: 'Courier New, monospace',
+        family: 'sans-serif',
       size: 14,
       color: '#7f7f7f'
     },
     tickfont: {
-       family: 'Courier New, monospace',
+       family: 'sans-serif',
       size: 14,
       color: 'black'
     },
-    tickangle: 45,
-  },
+    tickangle: 0,
+  },     annotations: [{
+    xref: 'paper',
+    yref: 'paper',
+     x: .99,
+    xanchor: 'right',
+    y: 0.03,
+    font: {   family: ' sans-serif'},
+    yanchor: 'bottom',
+    text: '&copy; polipredict.dk',
+    showarrow: false
+  }],
   yaxis: {
     range: [0, 100],
      showgrid: false,
@@ -62,12 +74,12 @@ function myfig_usapres( x, y1,y2,y3,y4  ){
      linewidth: 1,
     linecolor: '#000',
     titlefont: {
-      family: 'Courier New, monospace',
+      family: 'sans-serif',
       size: 14,
-      color: '#7f7f7f'
+      color: 'black'
     },
     tickfont: {
-        family: 'Courier New, monospace',
+        family: 'sans-serif',
       size: 14,
       color: 'black'
     }

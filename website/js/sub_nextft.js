@@ -31,7 +31,17 @@ function fig_nextft( x, y1,y2,y3,y4  ){
   var data = [line1, line2,line3,line4];
 
   var layout = {
-
+     annotations: [{
+    xref: 'paper',
+    yref: 'paper',
+     x: .99,
+    xanchor: 'right',
+    y: 0.03,
+    font: {   family: ' sans-serif'},
+    yanchor: 'bottom',
+    text: '&copy; polipredict.dk',
+    showarrow: false
+  }],
     legend : {
        xanchor:"center",
     yanchor:"top",
@@ -47,19 +57,21 @@ function fig_nextft( x, y1,y2,y3,y4  ){
   xaxis: {
     showgrid: false,
      linewidth: 1,
+          ticklen: 7,
+     tickcolor:"white",
     linecolor: '#000',
     title: '',
     titlefont: {
-        family: 'Courier New, monospace',
+        family: 'sans-serif',
       size: 14,
       color: '#7f7f7f'
     },
     tickfont: {
-       family: 'Courier New, monospace',
+       family: 'sans-serif',
       size: 14,
       color: 'black'
     },
-    tickangle: 45,
+    tickangle: 0,
   },
   yaxis: {
     range: [0, 50],
@@ -69,12 +81,12 @@ function fig_nextft( x, y1,y2,y3,y4  ){
      linewidth: 1,
     linecolor: '#000',
     titlefont: {
-      family: 'Courier New, monospace',
+      family: 'sans-serif',
       size: 14,
-      color: '#7f7f7f'
+      color: 'black'
     },
     tickfont: {
-        family: 'Courier New, monospace',
+        family: 'sans-serif',
       size: 14,
       color: 'black'
     }

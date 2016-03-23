@@ -29,7 +29,10 @@
 <header id="title-wrapper" class="container">
 	<h1 id="title">Polipredict.dk</h1>
 </header>
-
+<!-- subtext -->
+<div id="subtext">
+	- markedets forventninger til politiske begivenheder - <p> </p>
+</div>
 <!-- Begin menu -->
 <nav id="menu" class="container">
 	    <ul>
@@ -47,43 +50,50 @@
 		<div id="tekstarea">
 		
 		<span class="q"  id="highlightedtext">Q: Hvad er ideen med Polipredict.dk?</span> <br>
-		Udfaldet af politiske begivenheder såsom valg udfald er vigtige og tiltrækker med rette stor opmærksomhed i den offentlige debat. Ofte bliver debatten ført med baggrund i meningsmålinger eller enkelte eksperters udsagn. Vi mener, at debatten kan kvalificeres yderligere hvis man også inkluderer priserne i bettingmarkedet diskussionen. Disse priser kan både afspejle summen af tilgængelige meningsmålinger, men også markedets forventning til udviklingen frem mod f.eks. et valg. Således har disse priser også potentialet til at reagere hurtigere på ny information end meningsmålinger. Antag f.eks. at en afgørende begivenhed indtræffer som påvirker en af kandidaterne chance for at blive valgt. Denne begivenhed vil potentielt kunne opfanges med det samme i priserne i bettingmarkedet, hvorimod det vil tage tid at indsamle og skabe meningsmålinger som afspejler begivenheden. Samtidig illustrerer priserne i bettingmarkedet fint usikkerheden om udfaldet af politiske begivenheder. Ofte bliver meningsmålinger og eksperters udsagn fortolkes som, at den ene eller den anden vinder valget. Reelt er der dog altid tale som sandsynligheder for det ene eller det andet udfald. Priserne i bettingmarkedet afspejler dette, og det er nemt at udregne implicitte sandsynligheder fra priserne. <br><br>
+
+		<!-- I et klassisk experiment bad statistiskeren Francis Galton i 1907 800 mennesker gætte på vægten af -->
+
+		Udfaldet af politiske begivenheder tiltrækker stor opmærksomhed i den offentlige debat. Debatten er ofte baseret på meningsmålinger eller enkelte eksperters udsagn. Vi mener, at debatten kan beriges ved at udnytte ideen om at flere ved mere. Ideen er at befolkningen besidder en række informationer som er brugbare ift. at forudsige udfaldet politiske begivenheder. Og bettingmarkeder tilbyder en måde at "aggregere" all denne information sammen til sandsynligheder for de forskellige udfald. 
+
+		Bettingmarkeder er platforme hvor enhver kan spille på udfaldet af en begivenhed (fx fodboldkampe, hestevæddeløb mv). Hvis hændelsen indtræffer får spilleren sit indskud, multipliceret med en faktor (oddset), udbetalt. Hvis hændelsen ikke indtræffer, mister spilleren sit indskud. Jo mere sandsynligt et udfald er, des lavere vil oddset være, og des lavere er den potentielle gevinst for spilleren. Ved politiske begivenheder kan oddset derfor både afspejle summen af tilgængelige meningsmålinger, men også markedets forventning til udviklingen frem mod afgørelsen (fx valgdagen). De fleste spilmarkeder er tilgængelige hele døgnet. Spillere kan derfor reagere øjeblikkeligt på ny information, og spiludbyderne må derfor justere oddsene regelmæssigt, for at undgå tab. Således kan disse odds (eller priser) reagere hurtigere på ny information end fx meningsmålinger. Hvis fx en afgørende begivenhed indtræffer, som markant øger sandsynligheden for at en bestemt kandidat bliver valgt, så må spiludbyderne justere oddset hurtigt, for at undgå, at spillerne udnytter, at det udbudte odds er baseret på en lavere sandsynlighed, end hvad den nyeste information giver grundlag for. Samtidig illustrerer priserne i bettingmarkedet fint usikkerheden om udfaldet af politiske begivenheder. Denne usikkerhed er ofte fraværende når enkelte eksperter bliver bedt om at give deres bud på hvilket udfald som kommer realiseres.
+		<!-- Ved at bruge spiludbydernes odds kan vi udnytte mange individers information, og derved udnytte ideen om at flere ved mere. -->
+ <br><br>
 		
 		<span class="q"  id="highlightedtext">Q: Hvordan udregner I sandsynlighederne?</span> <br>
-	Vi indsamler løbende odds fra 4 spiludbydere,  som tilbyder væddemål på, politiske begivenheder. Hvert af disse væddemål har en implicit sandsynlighed for, at forskellige udfald realiseres. Vi udregner denne for hver dataindsamling, og får dermed det interval af sandsynligheder, som vi viser på forsiden. <!--Den udtrukne linie i midten af intervallet viser gennemsnittet. Helt præcist udregner vi sandsynligheden for at hhv. Helle Thorning-Schmidt og Lars Løkke Rasmussen bliver statsminister, betinget på at en af disse to kandidater vinder valget.  --> <br><br>
+	Vi indsamler løbende odds fra flere spiludbydere,  som tilbyder væddemål på, politiske begivenheder. Hvert af disse væddemål har en implicit sandsynlighed for, at forskellige udfald realiseres. Vi udregner denne for hver dataindsamling, og får dermed det interval af sandsynligheder, som vi viser i figurerne. <!--Den udtrukne linie i midten af intervallet viser gennemsnittet. Helt præcist udregner vi sandsynligheden for at hhv. Helle Thorning-Schmidt og Lars Løkke Rasmussen bliver statsminister, betinget på at en af disse to kandidater vinder valget.  --> <br><br>
 
-<span class="q" id="highlightedtext">Q: Hvordan er jeres mål anderledes fra en eller flere meningsmålinger?</span> <br>
-Det er to forskellige mål. En meningsmåling søger at afdække, hvordan stemmerne ville fordele sig, hvis der var valg imorgen. Vores mål er markedets forventning til, hvem der rent faktisk vinder valget, når det afholdes. Dermed indeholder målet både den information, som indgår i tilgængelige meningsmålinger, men også markedets forventning til udviklingen frem mod valget. Samtidig kan vores mål bruges til komplementere læsningen af meningsmålinger, som kan være meget volatile. Hvor meningsmålinger kan svinge en del på grund statistisk usikkerhed, så vil den kun påvirke vores mål i det omfang at markedsdeltagerne vurderer, at den er troværdig. Endelig har vores mål potentialet til hurtigere at indarbejde afgørende begivenheder end meningsmålinger. Antag f.eks. at en afgørende begivenhed indtræffer, som skader eller gavner en af kandidaterne. Dette vil kunne ændre oddset på kandidaterne med det samme, hvorimod det vil tage tid at skabe nye meningsmålinger, som afspejler denne begivnhed. <br><br>
+<span class="q" id="highlightedtext">Q: Hvordan adskiller jeres mål sig fra  meningsmålingerne?</span> <br>
+Det er to forskellige mål. En meningsmåling søger at afdække, hvordan stemmerne ville fordele sig, hvis der var valg i morgen. Vores mål er markedets forventning til begivenhedens udfald. Dermed kan målet både indeholde både den information, som indgår i tilgængelige meningsmålinger, men også markedets forventning til udviklingen frem mod begivenheden. <br><br>
 
 <span class="q"  id="highlightedtext">Q: Hvor præcist er jeres mål?</span> <br>
-Det er svært at sige. En række faktorer er afgørende for præcisionen. F.eks. 1) Hvor mange deltager i markedet, og 2) Hvor god information har deltagerne i markedet. Jo flere og jo bedre informerede spillerne er, jo mere information kommer prisen til at indeholde. Et økonomisk <a ahref=http://www.nber.org/papers/w10504 target="_blank"> studie</a> har fundet, at “Prediction Markets” kan forudsige udfald bedre end meningsmålinger. I dansk sammenhæng har vi fulgt betting-priser frem mod folketingsvalget 2015, EU-afstemningen 2016 og Eva Kjer Hansens afgang som minister. Bettingmarkedet har for hvert af disse begivenheder tildelt det faktiske udfald højest sandsynlighed. Ideen med denne side er dog at løbende indsamle betting data for på sigt, at muliggøre en mere formel evaluering af sådant datas evne til at forudsige politiske begivenheder.<br><br>
+Det er svært at sige. Især to faktorer er afgørende for præcisionen: 1) Hvor mange deltager i markedet (og hvor meget deltage de). 2) Hvor god information har deltagerne i markedet. Jo flere og jo bedre informerede spillerne er, jo mere information kommer prisen til at indeholde. Et økonomisk <a ahref=http://www.nber.org/papers/w10504 target="_blank"> studie</a> har fundet, at “Prediction Markets” kan forudsige udfald bedre end meningsmålinger. 
 
 <span class="q" id="highlightedtext">Q: Er jeres mål bedre end eksperters vurderinger?</span> <br>
-Måske. På den ene side har politiske eksperter nok mere information end mange som spiller på udfaldet af forskellige politiske begivenheder. På den anden side så har deltagerne mulighed for at høre eksperter vurderinger, før de spiller. Samtidig aggregerer markedet alle deltagernes informationer - ikke blot nogle få eksperter. Endelig er det ikke altid at eksperter har "skin in the game". Modsat taber markedsdeltagerne penge, hvis de predikterer forkert. <br><br>
+Vores mål er motiveret af ideen, at flere ved mere. Hvor politiske eksperter typisk vil være bedre informerede end den gennemsnitlige spiller på bettingmarkedet, så afspejler oddsene vurderingerne fra mange spillere. Ved at bruge spiludbydernes odds kan vi udnytte mange individers information. Endelig er det ikke altid at eksperter har "skin in the game". Modsat taber markedsdeltagerne penge, hvis deres forudsigelse ikke holder. <br><br>
 
-<span class="q"  id="highlightedtext">Q: Har I ikke for stor tiltro til bookmakers? De meget om sport, men hvad ved de om politik?</span> <br>
-Godt spørgsmål. Det er dog vigtigt, at huske på at bookmakers mål er, at tjene penge *unanset* valgets udfald. En måde at gøre dette på er ved, at sætte odds sådan at deres udbetaling, og gevinst, er ens uanset hvem der vinder. På denne måde kommeer oddset til afspejle ikke blot bookmakerens forvetning, men hele markedets forvetning. Antag f.eks. at en bookmaker sætter et "for godt" odds på Lars Løkke Rasmussen. I så fald vil bookmakeren tiltrække mange bets på Lars Løkke Rasmussen, hvilket vil betyde at bookmakerens gevinst kommer til at blive større ved en Helle Thorning-Schmidt-sejr end ved en Lars Løkke Rasmussen-sejr. For at fjerne denne assymmetri vil bookmakeren øge det reletive odds på Helle Thorning-Schmidt. På denne måde kommer oddsene i betting markedet ikke kun til, at afspejle bookmakerens forventning men hele markedets forvetning.  <br><br>
+<span class="q"  id="highlightedtext">Q: Har I ikke for stor tiltro til spiludbyderne? De meget om sport, men hvad ved de om politik?</span> <br>
+Godt spørgsmål. Under antagelse af, at spiludbydernes mål er, at tjene penge *uanset* valgets udfald, så vil oddset afspejle spillernes vurdering af udfaldet. Det er derfor ikke en betingelse, at spiludbyderne er godt informeret om en begivenhed, så længe de blot opdaterer deres odds hyppigt. Antag f.eks. at en spiludbyder sætter et "for godt" odds på Lars Løkke Rasmussen som kommende statsminister (for godt i forhold til markedets forventning). I så fald vil spiludbyderne tiltrække mange spil på Lars Løkke Rasmussen, hvilket vil betyde at udbydernes gevinst kommer til at blive større, hvis han ikke bliver statsminister, end hvis han bliver statsminister. For at fjerne denne asymmetri, vil udbyderne gøre oddset på Lars Løkke Rasmussen dårligere, indtil den forventede profit er uafhængig af valgets udfald. <br><br>
 
-<span class="q"  id="highlightedtext">Q: Hvordan udregner I konkret den betingede sandsynlighed for, at kandidat X vinder valget?</span> <br>
-Lad X være oddset på at Helle Thorning-Schmidt vinder valget og lad Y være oddset for, at Lars Løkke Rasmussen vinder. Så regner vi den betingede sandsynlighed for en Helle Thorning-Schmidt-sejr ud ved udtrykket 1/X/(1/X+1/Y)<br><br>
+<span class="q"  id="highlightedtext">Q: Hvordan udregner I konkret  sandsynligheden for, at kandidat X vinder valget?</span> <br>
+Antag at der er to kandidater til et valg, X og Y. Lad Ox være oddset på kandidat X og lad Oy være oddset på kandidat Y. Sandsynligheden for at X vinder valget, er så beregnet ved:Px=1/Ox/(1/Ox+1/Oy)<br><br>
 
 <span class="q"  id="highlightedtext">Q: Hvilke bookmakers indsamler I data fra?</span> <br>
-Vi indsamler data fra Danske Spil, Unibet, Betsafe og NordicBet. <br><br>
+Vi indsamler pt. data fra Danske Spil, Unibet, Betsafe og NordicBet, men vi holder løbende øje med nye markeder.<br><br>
 
 <span class="q"  id="highlightedtext">Q: Hvad er et odds?</span> <br>
-Et odds er det antal gange du får dine penge tilbage, hvis en given begivenhed indtræffer. Hvis f.eks. oddset på Hele Thorning-Schmidt er 3, betyder det, at du får dine penge 3 gange igen, hvis Helle Thorning-Schmidt vinder valget.<br><br>
+Et odds er det antal gange, som du får dine penge tilbage, hvis en given begivenhed indtræffer. Hvis fx oddset på kandidat X er 3, så betyder det, at du får dine penge 3 gange igen, hvis kandidat X vinder valget.<br><br>
 
 <span class="q" id="highlightedtext">Q: Findes der lignede mål i udlandet?</span> <br>
 Ja, der findes flere sider som indsamler og aggregerer information om, hvor sandsynlige forskellige begivenheder er. Et eksempel er <a ahref=http://www.predictwise.com/ target="_blank"> Predictwise </a>. <br><br>
 
 <span class="q" id="highlightedtext">Q: Hvem står bag?</span><br>
-polipredict.dk er udviklet af økonomerne Hans Henrik Sievertsen og Niels-Jakob Harbo Hansen. Samme stod også bag sitet hvembliverstatsminister.dk<br><br>
+polipredict.dk er udviklet af økonomerne Hans Henrik Sievertsen og Niels-Jakob Harbo Hansen, som også stod bag siden: hvembliverstatsminister.dk i forbindelse med folketingsvalget 2015.<br><br>
 
 <span class="q" id="highlightedtext">Q: Tjener I penge på dette?</span><br>
 Nej. polipredict.dk er udelukkende udviklet for at øge informationsniveauet i debatten. Der er ingen profit forbunden med siden. <br><br>
 
 <span class="q" id="highlightedtext">Q: Jeg har et forslag. Kan jeg være med?</span><br>
-Ja! Alle forslag til forbedringer er mere end velkomne. Hvad enten du finder en stavefejl eller har et forslag til en ny figur er du meget velkommen til at kontakte os. Du kan finde og videre med til at videreudvikle vores kode på <a href="https://github.com/njharbo/polipredict" target=_blank>Github</a>. Du kan også bare kontakte os via Twitter på <a href="https://twitter.com/polipredictdk" target=_blank>@polipredictdk</a>, <a href="https://twitter.com/hhsievertsen" target=_blank>@hhsievertsen</a> eller <a href="https://twitter.com/njharbo" target=_blank>@njharbo</a>.  <br><br>
+Ja! Alle forslag til forbedringer er mere end velkomne. Hvad enten du finder en stavefejl, har opdaget et marked vi har overset, eller har et forslag til et nyt design er du meget velkommen til at kontakte os. Du kan finde og være med til at videreudvikle vores kode på <a href="https://github.com/njharbo/polipredict" target=_blank>Github</a>. Du kan også bare kontakte os via Twitter på <a href="https://twitter.com/polipredictdk" target=_blank>@polipredictdk</a>, <a href="https://twitter.com/hhsievertsen" target=_blank>@hhsievertsen</a> eller <a href="https://twitter.com/njharbo" target=_blank>@njharbo</a>.  <br><br>
 
 <!-- 
 <p style="text-align:center">

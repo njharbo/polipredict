@@ -32,26 +32,39 @@ function myfig_ukeu(x, stay, leave  ){
     x:0.5   // play with it
     },
      titlefont: {
-        family: 'Sans-serif',
+        family: ' sans-serif',
       size: 16,
       color: 'black'
     },
+     annotations: [{
+    xref: 'paper',
+    yref: 'paper',
+    x: .99,
+    xanchor: 'right',
+    y: 0.03,
+    font: {   family: ' sans-serif'},
+    yanchor: 'bottom',
+    text: '&copy; polipredict.dk',
+    showarrow: false
+  }],
   xaxis: {
+         ticklen: 7,
+     tickcolor:"white",
     showgrid: false,
      linewidth: 1,
     linecolor: '#000',
     title: '',
     titlefont: {
-        family: 'Courier New, monospace',
+        family: ' sans-serif',
       size: 14,
       color: '#7f7f7f'
     },
     tickfont: {
-       family: 'Courier New, monospace',
+       family: ' sans-serif',
       size: 14,
       color: 'black'
     },
-    tickangle: 45,
+    tickangle: 0,
   },
   yaxis: {
     range: [0, 100],
@@ -61,12 +74,12 @@ function myfig_ukeu(x, stay, leave  ){
      linewidth: 1,
     linecolor: '#000',
     titlefont: {
-      family: 'Courier New, monospace',
+      family: ' sans-serif',
       size: 14,
-      color: '#7f7f7f'
+      color: 'black'
     },
     tickfont: {
-        family: 'Courier New, monospace',
+        family: ' sans-serif',
       size: 14,
       color: 'black'
     }
