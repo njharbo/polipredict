@@ -24,11 +24,16 @@ function sub_dkstm() {
 
 
 function myfig_dkstm( x, y1,y2,y3,y4,y5  ){
-  var line1 = { x: x,   y: y1 ,name :'Mette Frederiksen'};
-  var line2 = { x: x,   y: y2 ,name :'Lars Løkke Rasmussen' };
-  var line3 = { x: x,   y: y3 ,name :'Kristian Jensen' };
-  var line4 = { x: x,   y: y4 ,name :'Kristian Thulesen Dahl' };
-  var line5 = { x: x,   y: y5 ,name :'Søren Gade' };
+  var line1 = { x: x,   y: y1 ,name :'Mette Frederiksen',mode: 'lines+markers', marker:[{
+    maxdisplayed:0}]};
+  var line2 = { x: x,   y: y2 ,name :'Lars Løkke Rasmussen',mode: 'lines+markers', marker:[{
+    maxdisplayed:0}]};
+  var line3 = { x: x,   y: y3 ,name :'Kristian Jensen',mode: 'lines+markers', marker:[{
+    maxdisplayed:0}]};
+  var line4 = { x: x,   y: y4 ,name :'Kristian Thulesen Dahl',mode: 'lines+markers', marker:[{
+    maxdisplayed:0}]};
+  var line5 = { x: x,   y: y5 ,name :'Søren Gade',mode: 'lines+markers', marker:[{
+    maxdisplayed:0}]};
   var data = [line1, line2,line3,line4, line5];
   
 
