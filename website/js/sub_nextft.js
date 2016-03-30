@@ -24,10 +24,10 @@ function sub_nextft() {
 
 
 function fig_nextft( x, y1,y2,y3,y4  ){
-  var line1 = { x: x,   y: y1 ,name :'2016'};
-  var line2 = { x: x,   y: y2 ,name :'2017' };
-  var line3 = { x: x,   y: y3 ,name :'2018' };
-  var line4 = { x: x,   y: y4 ,name :'2019' }
+  var line1 = { x: x,   y: y1 ,name :'2016',mode: 'lines'};
+  var line2 = { x: x,   y: y2 ,name :'2017',mode: 'lines' };
+  var line3 = { x: x,   y: y3 ,name :'2018' ,mode: 'lines'};
+  var line4 = { x: x,   y: y4 ,name :'2019' ,mode: 'lines'}
   var data = [line1, line2,line3,line4];
 
   var layout = {
