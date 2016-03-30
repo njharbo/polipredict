@@ -20,8 +20,8 @@ function sub_ukeu() {
 
 
 function myfig_ukeu(x, stay, leave  ){
-  var line1 = { x: x,   y: stay ,name :'Stay'};
-  var line2 = { x: x,   y: leave ,name :'Leave' };
+  var line1 = { x: x,   y: stay ,name :'Stay',connectgaps:true};
+  var line2 = { x: x,   y: leave ,name :'Leave',connectgaps:true };
   var data = [line1, line2];
 
   var layout = {
