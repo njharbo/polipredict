@@ -1,4 +1,3 @@
-var public_spreadsheet_urlftv2015 = 'https://docs.google.com/spreadsheets/d/10wzoBvWqH2p5rBoy64SSqABQe24HFe1Mt3FhPd1QReo/pubhtml?gid=0&single=true';
 var public_spreadsheet_urlftv2015 ='https://docs.google.com/spreadsheets/d/1xW9fp3jAr5CHfw4g_ffjRD20fSxatTvtgQDEFuYUQ-I/pubhtml?gid=0&single=true'
 function sub_ftv2015() {
    Tabletop.init( { key: public_spreadsheet_urlftv2015,
